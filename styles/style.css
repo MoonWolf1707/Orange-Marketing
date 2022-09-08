@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 7px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.785);
+}
+.navbar .container .row{
+    width: 100%;
+}
+.navbar_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(231, 2, 2);
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    margin-left: 20px;
+}
+.nav_link{
+    list-style: none;
+    margin-top: 15px;
+}
+.nav_link a{
+    margin: 0 12px;
+    color: rgba(0, 0, 0, 0.308);
+    text-decoration: none;
+}
+.nav_link a:hover{
+    color: red;
+}
+.header_content{
+    background: url(../imgs/header_bg.png) center/cover no-repeat;
+    height: 500px;
+    opacity: 0.45;
+}
+.header_content div{
+    height: 100%;
+    background: rgba(255, 255, 255, 0.47);
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+    padding: 50px 35px 25px;
+    box-sizing: border-box;
+    box-shadow: 0 0 15 white
+}
+.item h3{
+    font-weight: bold;
+    font-size: 18px;
+    color: #dd4400;
+    text-align: center;
+    width: 80%;
+}
+.item a{
+      text-decoration: none;
+      height: 40px;
+      width: 200px;
+      background: rgb(255, 85, 0);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 25px;
+}
+.item div{
+    margin-top: 50px;
+    margin: 30px;
+    width: 200px;
+    height: 1px;
+    width: 100%;
+}
+.left {
+    width: 730px;
+}
+.right {
+    width: 250px;
+}
+.left a {
+    width: 200px;
+    height: 40px;
+    background: #dd4400;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.card a {
+    box-sizing: border-box;
+    width: 150px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #dd4400;
+}
